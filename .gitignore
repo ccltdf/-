@@ -1,0 +1,14 @@
+# llm_web_ask 的运行时产物与第三方库（都收在 llm_web_ask 文件夹内部）
+llm_web_ask/vendor/
+llm_web_ask/.tmp/
+llm_web_ask/raw/
+llm_web_ask/output/
+llm_web_ask/_备份/
+
+# 工作区根目录的 .tmp 是其他项目共用的，一并忽略
+.tmp/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
